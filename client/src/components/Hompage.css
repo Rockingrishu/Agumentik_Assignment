@@ -1,0 +1,85 @@
+.homepage-body {
+  margin-top: 67px;
+
+  width: 100vw;
+  background-color: #ffbf00;
+  color: red;
+}
+.button-design{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding:5px 30px;
+}
+.home-top-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.home-top-text-title {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 100px;
+}
+.home-top-text-content{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 100px;
+    justify-content: center;
+ 
+}
+.home-top-text-button{
+    font-size: 20px;
+    border: black;
+    font-weight: 500;
+    padding-top: 50px;
+}
+.home-top-text-button-1{
+    font-size: 20px;
+    border: 2px solid black;
+    font-weight: 500;
+    border-radius: 40px;
+    padding: 10px 20px;
+    
+}
+.home-image-div {
+  /* width: 100%;
+  height: 100%; */
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .home-top-text {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.centered-cells-container {
+  height: 200;
+  display: flex;
+  justify-content: center; /* Center the cells horizontally */
+  /* Add right-side border to each cell */
+  width: 80%; /* Set the container to take up 80% of the available width */
+  margin: 50px auto;
+ 
+}
+
+.centered-cell {
+  flex-basis: calc(25% - 1px); /* Set each cell to take up 25% of the available width minus 1px for the border */
+  padding: 10px;
+  text-align: center; /* Center the content inside each cell */
+  border-right: 1px solid #ccc; /* Add right-side border to each cell */
+}
+
+/* Remove the right border from the last cell to avoid a double border */
+.centered-cell:last-child {
+  border-right: none;
+}
+.cellTitle{
+  font-size: large;
+  font-weight: 700;
+}
