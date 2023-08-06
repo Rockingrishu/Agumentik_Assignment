@@ -1,4 +1,4 @@
-# Agumentik_Assignment
+# API TEST
  - frontend link: https://augmentikfrontend-phi.vercel.app/
  - backend link : https://augmentikbackend.onrender.com/admin
 
